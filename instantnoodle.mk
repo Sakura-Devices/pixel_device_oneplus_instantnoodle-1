@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from instantnoodle device
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
-# Inherit some common Spark stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
+# Inherit some common Derp stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-SAUCE := SPARK
+SAUCE := DERP
 
 
 PRODUCT_DEVICE := instantnoodle
